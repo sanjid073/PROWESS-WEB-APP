@@ -1,0 +1,50 @@
+.pricing-section{
+    padding: 100px 0;
+    background-color: #161616;
+}
+.pricing-card {
+    background-color: #29282D;
+    padding: 50px;
+    margin: 50px 0;
+    transition: .5s;
+}
+.sign {
+    color: #fff;
+    position: relative;
+    bottom: 35px;
+    font-weight: 600;
+    font-size: 20px;
+    right: 5px;
+}
+.price {
+    color: #fff;
+    font-size: 69px;
+    font-weight: 600;
+}
+.title-sub {
+    color: #E24936 !important;
+    letter-spacing: 1px;
+}
+.title-main {
+    color: #fff;
+    margin: 40px;
+    letter-spacing: 1px;
+    font-size: 30px;
+}
+.info {
+    color: #fff;
+    border-bottom: 1px solid #4a4a4a;
+    padding-bottom: 20px;
+    font-size: 17px;
+}
+.info1 {
+    color: #fff;
+    padding-bottom: 20px;
+    font-size: 17px;
+}
+
+.pricing-card:hover{
+    transform: scale(1.02);
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}

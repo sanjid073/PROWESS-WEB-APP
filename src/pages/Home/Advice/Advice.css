@@ -1,0 +1,19 @@
+.advice-section{
+    background-color: #1B1B1B;
+}
+.advice-text-box {
+    margin-top: 20%;
+}
+.my-btn {
+    background: #E24936;
+    color: white;
+    padding: 8px 30px;
+    font-size: 22px;
+    letter-spacing: 2px;
+    border-radius: 0;
+}
+.my-btn:hover{
+    background: transparent;
+    border: 1px solid #E24936;
+    color: #E24936;
+}

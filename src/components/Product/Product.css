@@ -1,0 +1,39 @@
+.product-card{
+    background-color: transparent;
+    cursor: pointer;
+    position: relative;
+}
+.product-title{
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    letter-spacing: 1px;
+    margin-top: 0;
+}
+.prduct-btn {
+    position: absolute;
+    top: 40%;
+    left: 36%;
+    background: #F34E3A;
+    font-size: 20px !important;
+    letter-spacing: 1px;
+    display: none;
+    transition: .5s;
+    color: #fff;
+    border-radius: 0;
+}
+.prduct-btn:hover {
+    background: #fff;
+    color: #F34E3A;
+}
+.product-card:hover .prduct-btn{
+    display: block;
+
+}
+.product-card:hover .product-title{
+    color: #F34E3A;
+    transition: .5s;
+}
+.product-card:hover img{
+    opacity: 0.5;
+}

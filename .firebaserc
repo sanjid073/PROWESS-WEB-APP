@@ -1,0 +1,7 @@
+{
+  "projects": {
+    "default": "prowess-92f86",
+    "staging": "prowess-92f86"
+  },
+  "targets": {}
+}

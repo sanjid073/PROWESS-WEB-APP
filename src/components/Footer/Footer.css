@@ -1,0 +1,38 @@
+.footer-section{
+    background-color: #1B1B1B;
+    padding: 80px 0;
+    position: relative;
+}
+.footer-title {
+    background-color: rgb(243, 78, 58);
+    position: absolute;
+    top: -18%;
+    left: 12%;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.footer-title h3,p{
+    letter-spacing: 1px;
+}
+.footer-btn{
+    text-align: right;
+    margin-bottom: 10px ;
+}
+.my-btn3{
+    background: #fff;
+    color: #E24936;
+    padding: 8px 30px;
+    font-size: 22px;
+    letter-spacing: 2px;
+    border-radius: 0;
+}
+.footer-info p,a{
+    letter-spacing: 2px;
+}
+@media only screen  and (max-width: 688px){
+    .footer-title {
+        width: 80% !important;
+    }
+    .footer-title footer-btn{
+       margin-bottom: 10px;
+    }
+}

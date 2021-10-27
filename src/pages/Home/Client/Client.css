@@ -1,0 +1,9 @@
+.client-section {
+    padding: 80px 0;
+    background: rgb(0, 0, 0);
+    padding-bottom: 150px;
+    text-align: center;
+}
+.client-section img{
+    width: 284px;
+}

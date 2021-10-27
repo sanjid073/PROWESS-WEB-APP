@@ -1,0 +1,46 @@
+h1.banner-title {
+    color: rgb(243, 78, 58);
+    font-size: 100px;
+    letter-spacing: 40px;
+    font-weight: 800;
+}
+p.banner-para {
+    letter-spacing: 1px;
+    color: white;
+    font-size: 25px;
+    margin-left: 25px;
+    margin-top: -58px;
+    font-weight: 800;
+}
+.banner-text {
+    margin-top: 20%;
+}
+h1.offer-text {
+    margin-right: -150px;
+    margin-top: 60%;
+    margin-left: 50%;
+    color: white;
+    transform: rotate(90deg);
+    font-size: 50px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+@media only screen and (max-width: 688px) {
+    h1.banner-title {
+        font-size: 80px;
+        letter-spacing: 20px;
+    }
+    p.banner-para {
+        font-size: 20px;
+        margin-left: 21px;
+        margin-top: -49px;
+    }
+    h1.offer-text {
+        margin-right: -100px;
+        margin-top: 40%;
+        margin-left: 35%;
+        font-size: 50px;
+    }
+    
+}
